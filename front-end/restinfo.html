@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Title</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles/mainstyles.css">
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <a class="navbar-brand" href="index.html">WebSiteName</a>
+	    </div>
+	    <ul class="nav navbar-nav">
+        <li id="restorantinfo" class="active"><a href="#">Restaurant info</a></li>
+	      <li id="restmenu"><a href="#">Restaurant Menu</a></li>
+	      <li id="localsearch"><a href="#">Search Restaurant</a></li>
+
+
+
+	    </ul>
+	  </div>
+	</nav>
+
+
+	<div class="container">
+
+    <!-- search the content of the DB based on the ingridient -->
+    <div id="rest-search-ing" style="margin-left: 35px;" class="hideme">
+
+        <div class="input-group">
+          <input type="text" id="localing-value" class="form-control" placeholder="Search the ingridient">
+          <div class="input-group-btn">
+            <button id="localsearch-ingridient" class="btn btn-default" type="button">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+  
+
+    </div>
+
+
+		
+		<ul id="items" >
+			
+		</ul>
+
+	</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/restinfoscript.js"></script>
+
+
+</body>
+</html>
